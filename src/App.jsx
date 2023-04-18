@@ -1,9 +1,9 @@
-import { UploadImageComponent } from "./components";
+import { UploadImageComponent, LoadingComponent } from "./components";
 
 const App = () => {
   return (
     <section className="flex justify-center items-center flex-col bg-gray-100 h-screen">
-      <UploadImageComponent />
+      <LoadingComponent />
       <footer className="text-slate-400 mt-10">
         Created by username{" "}
         <a
