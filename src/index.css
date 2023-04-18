@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 rounded-md text-white py-2 px-4 hover:bg-blue-500 active:bg-blue-700 hover:cursor-pointer transition-colors duration-200 delay-100
+  }
+  .second-container {
+    @apply border shadow-lg rounded-lg py-9 px-8 bg-white
+  }
+}
