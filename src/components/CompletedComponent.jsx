@@ -14,8 +14,7 @@ const CompletedComponent = () => {
       <h3 className="text-lg font-medium text-gray-700 mt-3">
         Uploaded Successfully!
       </h3>
-      <img src={urlFile} className="rounded-lg my-6 h-60" alt="not found" />
-      <div className="flex items-center justify-center bg-gray-100 border border-gray-300 rounded-md px-1 py-1">
+      <img src={urlFile} className="rounded-lg my-6 h-60 w-full" alt="not found" />      <div className="flex items-center justify-center bg-gray-100 border border-gray-300 rounded-md px-1 py-1">
         <p className="truncate text-gray-800 text-sm mr-2">{urlFile}</p>
         <button
           onClick={() => navigator.clipboard.writeText(urlFile)}
